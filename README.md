@@ -17,7 +17,7 @@ The **only difference** between training and test is that whether you specified 
 ## Citation
 This code implements an efficient and effective neural word segmenter proposed in the following paper.
 
-Deng Cai and Hai Zhao, Fast and Accurate Neural Word Segmentation for Chinese. ACL 2017.
+Deng Cai, Hai Zhao, etc., Fast and Accurate Neural Word Segmentation for Chinese. ACL 2017.
 
 If you find it useful, please cite the [paper](http://aclweb.org/anthology/P17-2096).
 ```
@@ -35,6 +35,6 @@ If you find it useful, please cite the [paper](http://aclweb.org/anthology/P17-2
 ```
 
 ## Contact
-Drop me a email at thisisjcykcd (AT) gmail.com if you have any question.
+Drop me (Deng Cai) an email at thisisjcykcd (AT) gmail.com if you have any question.
 
 
