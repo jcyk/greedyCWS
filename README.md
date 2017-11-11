@@ -11,7 +11,7 @@ You can modify the `src/train.py` to speficy your own model settings or datasets
 
 - For test, use the same command line `python train.py`. The segmented result will be saved in `src/result`
 
-The **only difference** between training and test is that whether you specified a parameter file or not, through the function argument `load_params` in `train.py`. In adition, please tell your test file to the program by setting `dev_file` (Yes, when test, consider it as "test_file").
+The **only difference** between training and test is that whether you specified a parameter file or not, through the function argument `load_params` in `train.py`. In addition, please tell the program your test file by setting `dev_file` (Yes, when test, consider it as "test_file").
 
 
 ## Citation
