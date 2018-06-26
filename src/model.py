@@ -189,6 +189,7 @@ def dy_train_model(
     if load_params is not None:
         cws.load(load_params)
         test(cws, dev_file, 'result')
+        return
 
     char_seq, _ , truth = prepareData(character_idx_map,train_file)
     

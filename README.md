@@ -7,11 +7,10 @@ Please check the `src/train.py` for all hyper-parameter and IO settings.
 You can modify the `src/train.py` to speficy your own model settings or datasets.
 
 
-- For training, use the command line `python train.py`. Training details will be printed on the screen and the tuned parameters will be saved in your disk per epoch. Those files saving the paramters will be named such as `epoch1`, `epoch2`, `...`, and placed in the same directory as `train.py`.
+- For training, use the command line `python train.py`. Training details will be printed on the screen. The learned parameters will be saved in in the same directory as `train.py` *per epoch*, which will be named as `epoch1`, `epoch2`, `...`.
+- For test, the ***same*** command line `python train.py` is used, but with a specified parameter file (e.g., `epoch1`), via the function argument `load_params` in `train.py` (Note `load_params` should be `None` when training). In addition, tell your test file by setting `dev_file` (Yes, when test, consider it as "test_file"). The segmented result will be saved in `src/result`.
 
-- For test, use the same command line `python train.py`. The segmented result will be saved in `src/result`
-
-The **only difference** between training and test is that whether you specified a parameter file or not, through the function argument `load_params` in `train.py`. In addition, please tell the program your test file by setting `dev_file` (Yes, when test, consider it as "test_file").
+The code is originally designed for reasearch purpose, but adaptable to industrial use. 
 
 
 ## Citation
